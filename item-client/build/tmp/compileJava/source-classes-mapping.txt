@@ -1,0 +1,6 @@
+com/sumit/shingari/itemclient/controller/ItemClientController.java
+ com.sumit.shingari.itemclient.controller.ItemClientController
+com/sumit/shingari/itemclient/domain/Item.java
+ com.sumit.shingari.itemclient.domain.Item
+com/sumit/shingari/itemclient/ItemClientApplication.java
+ com.sumit.shingari.itemclient.ItemClientApplication

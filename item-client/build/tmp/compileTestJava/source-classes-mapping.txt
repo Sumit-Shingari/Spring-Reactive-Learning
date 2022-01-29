@@ -1,0 +1,2 @@
+com/sumit/shingari/itemclient/ItemClientApplicationTests.java
+ com.sumit.shingari.itemclient.ItemClientApplicationTests
