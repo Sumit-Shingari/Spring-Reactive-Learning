@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ItemControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ItemControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.sumit.shingari.springreactivelearning.controller.v1.html">com.sumit.shingari.springreactivelearning.controller.v1</a> &gt; ItemControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.451s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">createItem()</td>
+<td class="success">0.026s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteItem()</td>
+<td class="success">0.028s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllItems()</td>
+<td class="success">0.051s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllItems_approach2()</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllItems_approach3()</td>
+<td class="success">0.030s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getItemById()</td>
+<td class="success">0.154s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getItemById_approach2()</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateItem()</td>
+<td class="success">0.095s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateItem_NotFound()</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2021-06-03 01:33:06.016  INFO 17384 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sumit.shingari.springreactivelearning.controller.v1.ItemControllerTest], using SpringBootContextLoader
+2021-06-03 01:33:06.017  INFO 17384 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.sumit.shingari.springreactivelearning.controller.v1.ItemControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-06-03 01:33:06.018  INFO 17384 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.sumit.shingari.springreactivelearning.controller.v1.ItemControllerTest]: ItemControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-06-03 01:33:06.029  INFO 17384 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.sumit.shingari.springreactivelearning.SpringReactiveLearningApplication for test class com.sumit.shingari.springreactivelearning.controller.v1.ItemControllerTest
+2021-06-03 01:33:06.034  INFO 17384 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-06-03 01:33:06.035  INFO 17384 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7bad3cd3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2f3f539, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@19772e58, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49f778db, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5b2e8e92, org.springframework.test.context.transaction.TransactionalTestExecutionListener@46e9e2f3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@664c1198, org.springframework.test.context.event.EventPublishingTestExecutionListener@140f8c2a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3b7aca27, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@320d49c1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@34cb4ec9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ccdeaa6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@310b28ea, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@69902c4b]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.5)
+
+2021-06-03 01:33:06.089  INFO 17384 --- [    Test worker] c.s.s.s.c.v1.ItemControllerTest          : Starting ItemControllerTest using Java 15.0.1 on DESKTOP-9P4KMOG with PID 17384 (started by shingari in C:\Users\shingari\Learning\ReactiveLearning\spring-reactive-learning)
+2021-06-03 01:33:06.089  INFO 17384 --- [    Test worker] c.s.s.s.c.v1.ItemControllerTest          : The following profiles are active: test
+2021-06-03 01:33:06.092  WARN 17384 --- [    Test worker] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 31:13]
+2021-06-03 01:33:06.092  WARN 17384 --- [    Test worker] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 22:13]
+2021-06-03 01:33:06.092  WARN 17384 --- [    Test worker] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 14:13]
+2021-06-03 01:33:06.093  WARN 17384 --- [    Test worker] o.s.b.c.config.ConfigDataEnvironment     : Property 'spring.profiles' imported from location 'class path resource [application.yml]' is invalid and should be replaced with 'spring.config.activate.on-profile' [origin: class path resource [application.yml] - 6:13]
+2021-06-03 01:33:06.299  INFO 17384 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-06-03 01:33:06.325  INFO 17384 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 Reactive MongoDB repository interfaces.
+2021-06-03 01:33:07.019  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : note: noprealloc may hurt performance in many applications
+2021-06-03 01:33:07.113  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.111+0530 I CONTROL  [initandlisten] MongoDB starting : pid=9928 port=60243 dbpath=C:\Users\shingari\AppData\Local\Temp\embedmongo-db-d29177d6-752a-40de-b2ea-bc82cb6e5799 64-bit host=DESKTOP-9P4KMOG
+2021-06-03 01:33:07.113  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.113+0530 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2021-06-03 01:33:07.113  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.113+0530 I CONTROL  [initandlisten] db version v3.5.5
+2021-06-03 01:33:07.113  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.113+0530 I CONTROL  [initandlisten] git version: 98515c812b6fa893613f063dae568ff8319cbfbd
+2021-06-03 01:33:07.113  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.113+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-06-03 01:33:07.113  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.113+0530 I CONTROL  [initandlisten] modules: none
+2021-06-03 01:33:07.113  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.113+0530 I CONTROL  [initandlisten] build environment:
+2021-06-03 01:33:07.114  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.113+0530 I CONTROL  [initandlisten]     distarch: x86_64
+2021-06-03 01:33:07.114  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.113+0530 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-06-03 01:33:07.114  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.113+0530 I CONTROL  [initandlisten] options: { net: { bindIp: &quot;127.0.0.1&quot;, http: { enabled: false }, port: 60243 }, security: { authorization: &quot;disabled&quot; }, storage: { dbPath: &quot;C:\Users\shingari\AppData\Local\Temp\embedmongo-db-d29177d6-752a-40de-b2ea-bc82cb6e5799&quot;, journal: { enabled: false }, mmapv1: { preallocDataFiles: false, smallFiles: true }, syncPeriodSecs: 0.0 } }
+2021-06-03 01:33:07.115  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.115+0530 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7473M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=0,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),,log=(enabled=false),
+2021-06-03 01:33:07.198  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.198+0530 W STORAGE  [initandlisten] Detected configuration for non-active storage engine mmapv1 when current storage engine is wiredTiger
+2021-06-03 01:33:07.198  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.198+0530 I CONTROL  [initandlisten] 
+2021-06-03 01:33:07.198  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.198+0530 I CONTROL  [initandlisten] ** NOTE: This is a development version (3.5.5) of MongoDB.
+2021-06-03 01:33:07.198  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.198+0530 I CONTROL  [initandlisten] **       Not recommended for production.
+2021-06-03 01:33:07.198  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.198+0530 I CONTROL  [initandlisten] 
+2021-06-03 01:33:07.826  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.826+0530 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/shingari/AppData/Local/Temp/embedmongo-db-d29177d6-752a-40de-b2ea-bc82cb6e5799/diagnostic.data'
+2021-06-03 01:33:07.877  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.877+0530 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: &quot;incompatible_with_version_32&quot;, ns: &quot;admin.system.version&quot; }
+2021-06-03 01:33:07.877  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.877+0530 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2021-06-03 01:33:07.882  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.883+0530 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2021-06-03 01:33:07.885  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.886+0530 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2021-06-03 01:33:07.887  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.888+0530 I NETWORK  [thread1] waiting for connections on port 60243
+2021-06-03 01:33:07.888  INFO 17384 --- [    Test worker] d.f.embed.mongo.MongodExecutable         : start de.flapdoodle.embed.mongo.config.MongodConfigBuilder$ImmutableMongodConfig@49899c15
+2021-06-03 01:33:07.930  INFO 17384 --- [    Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:60243], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-06-03 01:33:07.934  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.935+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60283 #1 (1 connection now open)
+2021-06-03 01:33:07.936  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.936+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60284 #2 (2 connections now open)
+2021-06-03 01:33:07.936  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.936+0530 I NETWORK  [conn1] received client metadata from 127.0.0.1:60283 conn1: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.1.2&quot; }, os: { type: &quot;Windows&quot;, name: &quot;Windows 10&quot;, architecture: &quot;amd64&quot;, version: &quot;10.0&quot; }, platform: &quot;Java/Oracle Corporation/15.0.1+9-18&quot; }
+2021-06-03 01:33:07.937  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:07.937+0530 I NETWORK  [conn2] received client metadata from 127.0.0.1:60284 conn2: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.1.2&quot; }, os: { type: &quot;Windows&quot;, name: &quot;Windows 10&quot;, architecture: &quot;amd64&quot;, version: &quot;10.0&quot; }, platform: &quot;Java/Oracle Corporation/15.0.1+9-18&quot; }
+2021-06-03 01:33:07.938  INFO 17384 --- [localhost:60243] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:15, serverValue:1}] to localhost:60243
+2021-06-03 01:33:07.938  INFO 17384 --- [localhost:60243] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:16, serverValue:2}] to localhost:60243
+2021-06-03 01:33:07.938  INFO 17384 --- [localhost:60243] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:60243, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2577500}
+2021-06-03 01:33:08.328  INFO 17384 --- [    Test worker] c.s.s.s.c.v1.ItemControllerTest          : Started ItemControllerTest in 2.289 seconds (JVM running for 19.56)
+2021-06-03 01:33:08.339  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.339+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60285 #3 (3 connections now open)
+2021-06-03 01:33:08.340  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.340+0530 I NETWORK  [conn3] received client metadata from 127.0.0.1:60285 conn3: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.1.2&quot; }, os: { type: &quot;Windows&quot;, name: &quot;Windows 10&quot;, architecture: &quot;amd64&quot;, version: &quot;10.0&quot; }, platform: &quot;Java/Oracle Corporation/15.0.1+9-18&quot; }
+2021-06-03 01:33:08.342  INFO 17384 --- [ntLoopGroup-4-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:17, serverValue:3}] to localhost:60243
+2021-06-03 01:33:08.363  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.363+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60286 #4 (4 connections now open)
+2021-06-03 01:33:08.366  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.366+0530 I NETWORK  [conn4] received client metadata from 127.0.0.1:60286 conn4: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.1.2&quot; }, os: { type: &quot;Windows&quot;, name: &quot;Windows 10&quot;, architecture: &quot;amd64&quot;, version: &quot;10.0&quot; }, platform: &quot;Java/Oracle Corporation/15.0.1+9-18&quot; }
+2021-06-03 01:33:08.368  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.367+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60287 #5 (5 connections now open)
+2021-06-03 01:33:08.370  INFO 17384 --- [ntLoopGroup-4-4] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:18, serverValue:4}] to localhost:60243
+2021-06-03 01:33:08.371  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.371+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60288 #6 (6 connections now open)
+2021-06-03 01:33:08.372  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.372+0530 I NETWORK  [conn5] received client metadata from 127.0.0.1:60287 conn5: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.1.2&quot; }, os: { type: &quot;Windows&quot;, name: &quot;Windows 10&quot;, architecture: &quot;amd64&quot;, version: &quot;10.0&quot; }, platform: &quot;Java/Oracle Corporation/15.0.1+9-18&quot; }
+2021-06-03 01:33:08.373  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.373+0530 I NETWORK  [conn6] received client metadata from 127.0.0.1:60288 conn6: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.1.2&quot; }, os: { type: &quot;Windows&quot;, name: &quot;Windows 10&quot;, architecture: &quot;amd64&quot;, version: &quot;10.0&quot; }, platform: &quot;Java/Oracle Corporation/15.0.1+9-18&quot; }
+2021-06-03 01:33:08.373  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.373+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60289 #7 (7 connections now open)
+2021-06-03 01:33:08.373  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.374+0530 I NETWORK  [conn7] received client metadata from 127.0.0.1:60289 conn7: { driver: { name: &quot;mongo-java-driver|reactive-streams|spring-boot&quot;, version: &quot;4.1.2&quot; }, os: { type: &quot;Windows&quot;, name: &quot;Windows 10&quot;, architecture: &quot;amd64&quot;, version: &quot;10.0&quot; }, platform: &quot;Java/Oracle Corporation/15.0.1+9-18&quot; }
+2021-06-03 01:33:08.374  INFO 17384 --- [ntLoopGroup-4-5] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:19, serverValue:5}] to localhost:60243
+2021-06-03 01:33:08.375  INFO 17384 --- [ntLoopGroup-4-6] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:20, serverValue:6}] to localhost:60243
+2021-06-03 01:33:08.376  INFO 17384 --- [ntLoopGroup-4-7] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:21, serverValue:7}] to localhost:60243
+Item is :Item(id=60b7e3fcfd8209276d2e7e2c, description=Third prod, price=1200.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e2a, description=First prod, price=400.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e2b, description=Second prod, price=800.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e2d, description=Forth prod, price=160.0)
+Item is :Item(id=ABC, description=Fifth prod, price=2000.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e2f, description=Second prod, price=800.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e30, description=Third prod, price=1200.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e31, description=Forth prod, price=160.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e2e, description=First prod, price=400.0)
+Item is :Item(id=ABC, description=Fifth prod, price=2000.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e33, description=Second prod, price=800.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e34, description=Third prod, price=1200.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e35, description=Forth prod, price=160.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e32, description=First prod, price=400.0)
+Item is :Item(id=ABC, description=Fifth prod, price=2000.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e37, description=Second prod, price=800.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e38, description=Third prod, price=1200.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e39, description=Forth prod, price=160.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e36, description=First prod, price=400.0)
+Item is :Item(id=ABC, description=Fifth prod, price=2000.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e3b, description=Second prod, price=800.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e3c, description=Third prod, price=1200.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e3d, description=Forth prod, price=160.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e3a, description=First prod, price=400.0)
+Item is :Item(id=ABC, description=Fifth prod, price=2000.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e3f, description=Second prod, price=800.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e40, description=Third prod, price=1200.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e41, description=Forth prod, price=160.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e3e, description=First prod, price=400.0)
+Item is :Item(id=ABC, description=Fifth prod, price=2000.0)
+2021-06-03 01:33:08.704  INFO 17384 --- [    Test worker] Value from network :                     : | onSubscribe([Fuseable] FluxOnAssembly.OnAssemblySubscriber)
+2021-06-03 01:33:08.704  INFO 17384 --- [    Test worker] Value from network :                     : | request(unbounded)
+2021-06-03 01:33:08.705  INFO 17384 --- [    Test worker] Value from network :                     : | onNext(Item(id=60b7e3fcfd8209276d2e7e3e, description=First prod, price=400.0))
+2021-06-03 01:33:08.705  INFO 17384 --- [    Test worker] Value from network :                     : | onNext(Item(id=60b7e3fcfd8209276d2e7e3f, description=Second prod, price=800.0))
+2021-06-03 01:33:08.705  INFO 17384 --- [    Test worker] Value from network :                     : | onNext(Item(id=60b7e3fcfd8209276d2e7e40, description=Third prod, price=1200.0))
+2021-06-03 01:33:08.706  INFO 17384 --- [    Test worker] Value from network :                     : | onNext(Item(id=60b7e3fcfd8209276d2e7e41, description=Forth prod, price=160.0))
+2021-06-03 01:33:08.707  INFO 17384 --- [    Test worker] Value from network :                     : | onNext(Item(id=ABC, description=Fifth prod, price=2000.0))
+2021-06-03 01:33:08.708  INFO 17384 --- [    Test worker] Value from network :                     : | onComplete()
+Item is :Item(id=60b7e3fcfd8209276d2e7e43, description=Second prod, price=800.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e44, description=Third prod, price=1200.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e45, description=Forth prod, price=160.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e42, description=First prod, price=400.0)
+Item is :Item(id=ABC, description=Fifth prod, price=2000.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e48, description=Second prod, price=800.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e49, description=Third prod, price=1200.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e4a, description=Forth prod, price=160.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e47, description=First prod, price=400.0)
+Item is :Item(id=ABC, description=Fifth prod, price=2000.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e4c, description=Second prod, price=800.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e4d, description=Third prod, price=1200.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e4e, description=Forth prod, price=160.0)
+Item is :Item(id=60b7e3fcfd8209276d2e7e4b, description=First prod, price=400.0)
+Item is :Item(id=ABC, description=Fifth prod, price=2000.0)
+2021-06-03 01:33:08.797  INFO 17384 --- [    Test worker] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:17, serverValue:3}] to localhost:60243 because the pool has been closed.
+2021-06-03 01:33:08.798  INFO 17384 --- [    Test worker] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:18, serverValue:4}] to localhost:60243 because the pool has been closed.
+2021-06-03 01:33:08.798  INFO 17384 --- [    Test worker] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:19, serverValue:5}] to localhost:60243 because the pool has been closed.
+2021-06-03 01:33:08.798  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.799+0530 I -        [conn3] end connection 127.0.0.1:60285 (7 connections now open)
+2021-06-03 01:33:08.799  INFO 17384 --- [    Test worker] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:20, serverValue:6}] to localhost:60243 because the pool has been closed.
+2021-06-03 01:33:08.799  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.799+0530 I -        [conn4] end connection 127.0.0.1:60286 (6 connections now open)
+2021-06-03 01:33:08.799  INFO 17384 --- [    Test worker] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:21, serverValue:7}] to localhost:60243 because the pool has been closed.
+2021-06-03 01:33:08.800  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.800+0530 I -        [conn5] end connection 127.0.0.1:60287 (5 connections now open)
+2021-06-03 01:33:08.800  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.800+0530 I -        [conn6] end connection 127.0.0.1:60288 (4 connections now open)
+2021-06-03 01:33:08.801  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.801+0530 I -        [conn7] end connection 127.0.0.1:60289 (3 connections now open)
+2021-06-03 01:33:08.801  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.801+0530 I -        [conn1] end connection 127.0.0.1:60283 (2 connections now open)
+2021-06-03 01:33:08.801  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:08.801+0530 I -        [conn2] end connection 127.0.0.1:60284 (1 connection now open)
+2021-06-03 01:33:10.877  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:10.877+0530 I NETWORK  [thread1] connection accepted from 127.0.0.1:60290 #8 (1 connection now open)
+2021-06-03 01:33:10.878  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:10.878+0530 I COMMAND  [conn8] terminating, shutdown command received
+2021-06-03 01:33:10.879  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:10.878+0530 I NETWORK  [conn8] shutdown: going to close listening sockets...
+2021-06-03 01:33:10.879  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:10.878+0530 I NETWORK  [conn8] closing listening socket: 544
+2021-06-03 01:33:10.879  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:10.878+0530 I NETWORK  [conn8] shutdown: going to flush diaglog...
+2021-06-03 01:33:10.879  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:10.878+0530 I FTDC     [conn8] Shutting down full-time diagnostic data capture
+2021-06-03 01:33:10.882  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:10.881+0530 I STORAGE  [conn8] WiredTigerKVEngine shutting down
+2021-06-03 01:33:10.931  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:10.931+0530 I STORAGE  [conn8] shutdown: removing fs lock...
+2021-06-03 01:33:10.932  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:10.932+0530 I CONTROL  [conn8] now exiting
+2021-06-03 01:33:10.933  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:10.932+0530 I CONTROL  [conn8] shutting down with code:0
+2021-06-03 01:33:10.933  INFO 17384 --- [      Thread-12] o.s.b.a.mongo.embedded.EmbeddedMongo     : 2021-06-03T01:33:10.932+0530 I CONTROL  [initandlisten] shutting down with code:0
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 03-Jun-2021, 1:33:13 am</p>
+</div>
+</div>
+</body>
+</html>
